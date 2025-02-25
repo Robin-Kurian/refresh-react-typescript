@@ -1,0 +1,64 @@
+
+/* Styles for Winner component */
+.winner-container {
+    background-color: #e0ffe0; /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .winner-text {
+    font-size: 24px;
+    color: #4caf50; /* Green color for winner text */
+  }
+  
+  /* Styles for Votes component */
+  .votes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    margin: 0 auto;
+  }
+  
+  .vote-card {
+    background-color: #f9f9f9; /* Light gray background for cards */
+    border: 1px solid #ccc; /* Border for cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px; /* Space between cards */
+    width: 200px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .vote-name {
+    font-size: 20px; /* Font size for participant name */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Styles for Vote button */
+  .vote-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .vote-button:disabled {
+    background-color: #ccc; /* Gray background for disabled button */
+    cursor: not-allowed; /* Change cursor for disabled button */
+  }
+  
+  /* Styles for ScoreBoard component */
+  .scoreboard-container {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .scoreboard-title {
+    font-size: 24px; /* Font size for scoreboard title */
+    font-weight: bold; /* Bold text */
+  }
