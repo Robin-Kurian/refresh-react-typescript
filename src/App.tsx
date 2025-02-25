@@ -7,6 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
+        {/* Navbar */}
         <nav className="navbar">
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -15,6 +16,7 @@ function App() {
             <li><Link to="contact">Contact</Link></li>
           </ul>
         </nav>
+        {/* Routes */}
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="vote" element={<VotingManager />} />

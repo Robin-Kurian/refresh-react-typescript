@@ -25,6 +25,7 @@ const VotingManager = () => {
                 ) :
                     totalVotes > 0 && <ScoreBoard votes={votes} />}
                 <Button
+                    className="vote-button"
                     style={{ marginTop: "10px" }}
                     disabled={totalVotes === 0 || showWinner}
                     onClick={() => {
